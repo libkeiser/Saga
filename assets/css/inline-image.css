@@ -1,0 +1,17 @@
+.post-content .inline-image img{
+       display: initial;
+       max-width: initial;
+       height: initial;
+       padding: initial;
+       position: initial;
+       left: initial;
+       -webkit-transform: initial;
+       -ms-transform: initial;
+       transform: initial;
+       margin-bottom: initial;
+}
+@media only screen and (max-width: 500px){
+	.post-content .inline-image img{
+		width:initial;
+	}
+}
