@@ -1,0 +1,29 @@
+.post-content .inline-quote-box{
+	width: 80%;
+	margin: 0 auto;
+	margin-bottom: 1em;
+	margin-left: 10%;
+	padding: 1em;
+	overflow: auto;
+	background-color: #ddd;
+	dispaly: inline-block;
+}
+.post-content .inline-quote-box .lquote{
+	max-width: 15%;
+	padding-right: 0.5em;
+	padding-left: 0.5em;
+	margin-left: initial;
+	margin-top: initial;
+}
+.post-content .inline-quote-box .rquote span{
+	vertical-align: baseline;
+}
+.post-content .inline-quote-box .rquote img{
+	max-width: 15%;
+	margin-top: initial;
+	float: right;
+}
+.post-content .inline-quote-box .text{
+	font-family: sans-serif;
+	font-size: 1.25em;
+}
