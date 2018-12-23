@@ -1,0 +1,28 @@
+.nav {
+    display: inline-block;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    font-family:"Noto Sans",Helvetica,"Helvetica Neue",Arial,sans-serif;
+    font-size: 0.75em;
+}
+
+.nav li {
+    display: inline-block;
+    line-height: 60px;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+}
+
+.nav li a {
+    margin: 0;
+    margin-left: 1em;
+    color: #fff;
+    opacity: 0.8;
+}
+
+.nav li a:hover {
+    text-decoration: none;
+    opacity: 1;
+}
