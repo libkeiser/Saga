@@ -26,3 +26,27 @@
     text-decoration: none;
     opacity: 1;
 }
+
+.page-template #header .blog-content {
+    position:absolute;
+    width:100%;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+    padding:0 20px
+}
+
+.page-template #header .blog-content .blog-title {
+    font-size:14px;
+    font-size:1.4rem;
+    letter-spacing:0;
+    margin:0
+}
+
+.page-template #header .blog-content nav.links ul li a {
+    color:#999
+}
+
+.page-template #header .blog-content nav.links ul li a:hover {
+    color:black
+}
