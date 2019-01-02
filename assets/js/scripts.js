@@ -13,7 +13,7 @@
 
         initialize: function(){
             // Get url for blog (in case site is run under a sub-domain)
-            this.siteurl = $('#site-url').attr('href');
+            this.siteurl = $('#site-url').attr('href').replace(/^/,'/').replace(/\/\//g,'/').replace(/\/[^\/]*$/,'');
             this.$main = $('#main');
 
             this.highlightCode();
