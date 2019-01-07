@@ -51,3 +51,9 @@
 .page-template #header .blog-content nav.links ul li a:hover {
     color:black
 }
+
+.post-content figcaption {
+	font-family: sans-serif;
+	font-size: 0.8em;
+	color: #444;
+}
