@@ -34,6 +34,7 @@
     -webkit-box-sizing:border-box;
     box-sizing:border-box;
     padding:0 20px
+    color:#999
 }
 
 .page-template #header .blog-content .blog-title {
