@@ -16,9 +16,16 @@
             this.siteurl = $('#site-url').attr('href');
             if (/^([^\/\:]+\:\/\/)?[^\/]+$/.test(this.siteurl))
             {
-                this.siteurl = this.siteurl + '/';
+		if (/^[^\/\:]+\:\/\//.test(this.siteurl))
+		{
+                    this.siteurl = this.siteurl + '/';
+		}
+		else
+		{
+		    this.siteurl = '';
+		}
             }
-            this.siteurl.replace(/\/[^\/]*$/,'');
+            this.siteurl = this.siteurl.replace(/\/[^\/]*$/,'').replace(/([^\:])\/\//g,'$1/').replace(/\/$/,'');
             this.$main = $('#main');
 
             this.highlightCode();
