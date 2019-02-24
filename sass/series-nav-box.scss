@@ -1,0 +1,31 @@
+.post-content .series-nav-box{
+    background-color: #f0fff0;
+}
+
+.post-content div.series-nav-box{
+    border: 0.2em;
+    border-style: double;
+    border-color: #fa0;
+    margin-left: 1em;
+    margin-bottom: 2em;
+    padding: 0.5em;
+    width: 50%;
+}
+
+.post-content .series-nav-box p{
+    color: #00c;
+    font-weight: bold;
+    text-align: center;
+}
+
+.post-content .series-nav-box hr{
+    color: #fa0;
+    background-color: #fa0;
+    border: none;
+    height: 1px;
+}
+
+.post-content .series-nav-box ol{
+    margin-bottom: auto;
+    padding-left: 1.5em;
+}
